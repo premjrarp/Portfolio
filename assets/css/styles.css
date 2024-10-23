@@ -208,7 +208,7 @@ img {
   color: var(--first-color);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
   .nav__menu{
     position: fixed;
     bottom: -100%;
@@ -454,11 +454,9 @@ img {
 
 .skills__header{
   display: flex;
-  flex-direction: row;
   align-items: center;
   margin-bottom: var(--mb-2-5);
   cursor: pointer;
-  justify-content: center;
 }
 
 .skills__icon,
@@ -706,8 +704,9 @@ img {
 
 .services__modal-content{
   position: relative;
+  display: flex;
   background-color: var(--container-color);
-  padding: 1.5rem;
+  padding: 2.5rem;
   border-radius: .5rem;
 }
 
@@ -1114,7 +1113,7 @@ img {
   .project__container,
   .contact__container,
   .footer__container{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
   }
 
   .qualification__section{
